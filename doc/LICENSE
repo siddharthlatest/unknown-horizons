@@ -35,13 +35,15 @@ All graphic content downloaded from Reiner's Tileset (http://reinerstileset.4pla
 is published unter the terms of his own Freeware license.
 For more information visit http://reinerstileset.4players.de/readmeE.html#b
 
-Graphics from Reiner's Tileset:
+Graphics from Reiner's Tileset[*]:
 
 ALL files in content/gfx/units EXCEPT all files in: 
-ships/
 animals/as_fallowdeer0/
 animals/as_reddeer0/
+inhabitant/sailor/as_male
+ships/
 
+[*]: All graphics downloaded from Reiner's Tileset are replaced by placeholders in the DFSG_compatible branch.
 
 
 All audio content downloaded from the freesound project is licensed under the
@@ -52,12 +54,16 @@ Samples used from Freesound.org:
 
 chop.wav by hazure (used in lumberjack.ogg) [*]
 timber.wav by hazure (used in lumberjack.ogg) [*]
-Mercato di Montevarchi.mp3 by fonogeno (main_square.ogg)
+Mercato di Montevarchi.mp3 by fonogeno (main_square.ogg) (not included in DFSG_compatible branch)
 
 [*]: hazure kindly licensed these files under CC-BY-SA 3.0 as well for us
      according to the following message. We highly appreciate this favor.
 "You may use those two samples under the CC-BY-SA 3.0 license, and consider this
  message as formal documentation of the permission given." ~ Feb 25, 2011.
+
+The following files are replaced by a own calm sound in the the DFSG_compatible branch:
+content/audio/sounds/branch_office.ogg (replaced cause of non existing source and license information)
+content/audio/sounds/main_square.ogg
 
 
 The font Linux Libertine is published under the terms of the 
